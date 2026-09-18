@@ -1,0 +1,24 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "ts-node generate.ts",
+    "generate:sugar-cube": "ts-node generate.ts SugarCube",
+    "sync": "ts-node sync.ts",
+    "diff": "ts-node diff.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "@maid_melisa/templates": "workspace:*"
+  },
+  "license": "ISC",
+  "packageManager": "pnpm@10.28.2",
+  "devDependencies": {
+    "@types/node": "^26.6.1",
+    "ts-node": "^10.9.2",
+    "typescript": "~6.0.3"
+  }
+}

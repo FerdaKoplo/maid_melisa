@@ -1,8 +1,13 @@
 {
-  "name": "maid_melisa",
+  "name": "@maid_melisa/shared",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "exports": {
+    ".": "./index.ts",
+    "./theme": "./theme.ts",
+    "./cn": "./cn.ts"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,9 +16,7 @@
   "license": "ISC",
   "packageManager": "pnpm@10.28.2",
   "dependencies": {
-    "turbo": "^2.10.13"
-  },
-  "devDependencies": {
-    "ts-node": "^10.9.2"
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.7.0"
   }
 }
