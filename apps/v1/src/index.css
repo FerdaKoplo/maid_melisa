@@ -1,15 +1,21 @@
 @import "tailwindcss";
 
-@theme {
-  --color-primary: var(--mm-color-primary);
-  --color-surface: var(--mm-color-surface);
-  --color-secondary: var(--mm-color-secondary);
-  --color-text: var(--mm-color-text);
-  --color-muted: var(--mm-color-muted);
-  --color-border: var(--mm-color-border);
-  --color-accent: var(--mm-color-accent);
+@theme inline {
+  --color-primary: var(--primary);
+  --color-surface: var(--surface);
+  --color-secondary: var(--secondary);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
 }
+
 :root {
-  background: #f5f0eb; /* british surface color */
-  color: #1a1a1a;
+  --primary: #2c4a3e;
+  --surface: #f5f0eb;
+  --secondary: #8b7355;
+  --text: #1a1a1a;
+  --muted: #9e9e9e;
+  --border: #d4c9b8;
+  --accent: #c17f3e;
 }

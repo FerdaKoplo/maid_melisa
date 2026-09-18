@@ -5,7 +5,11 @@ import { defineConfig } from "vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [tailwindcss(), react()],
-  server: {},
+  // server: {
+  //   fs: {
+  //     allow: ["../../.."],
+  //   },
+  // },
   resolve: {
     alias: {
       "@maid_melisa/shared": new URL("../../packages/shared", import.meta.url)

@@ -4,8 +4,9 @@
     "module": "CommonJS",
     "moduleResolution": "bundler",
     "esModuleInterop": true,
+    "jsx": "react-jsx",
     "strict": true,
-    "types": ["node"]
+    "types": ["node", "react"]
   },
   "include": ["./**/*.ts", "./**/*.tsx"],
   "exclude": ["node_modules"]
