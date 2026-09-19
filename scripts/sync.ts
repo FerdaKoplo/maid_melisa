@@ -2,8 +2,9 @@ import type { ComponentSchema } from "@maid_melisa/templates/types";
 import { validateSchema } from "@maid_melisa/templates/validators";
 import { generateIvyComponent } from "@maid_melisa/templates/generators";
 import { SugarCubeSchema } from "@maid_melisa/templates/schemas/sugar-cube.schema";
+import { SteeperSchema } from "@maid_melisa/templates/schemas/steeper.schema";
 
-const registry: ComponentSchema[] = [SugarCubeSchema];
+const registry: ComponentSchema[] = [SugarCubeSchema, SteeperSchema];
 
 const sync = (): void => {
   console.log("syncing maid melisa components...\n");

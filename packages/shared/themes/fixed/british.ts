@@ -10,4 +10,6 @@ export const british = {
   "--mm-radius-md": "3px",
   "--mm-radius-lg": "4px",
   "--mm-font-family": "Georgia, serif",
+  "--error": "#9B4444",
+  "--error-bg": "#F5EDED",
 } as const;

@@ -17,6 +17,7 @@
   "packageManager": "pnpm@10.28.2",
   "dependencies": {
     "clsx": "^2.1.1",
+    "lucide-react": "^1.47.0",
     "tailwind-merge": "^3.7.0"
   }
 }
