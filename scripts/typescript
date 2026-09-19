@@ -1,0 +1,78 @@
+Script started on Sat Sep 19 23:23:15 2026
+[1m[7m%[27m[1m[0m                                                                                                                                                          [0m[27m[24m[Jivan@Mac scripts % [K[?2004hppnpm sync[?2004l
+
+> scripts@1.0.0 sync /Users/ivan/projects/frontend_app/maid_melisa/scripts
+> ts-node sync.ts
+
+syncing maid melisa components...
+
+Schema valid: SugarCube
+✓ Generated: servings/ivy/SugarCube.tsx
+Schema valid: Steeper
+✓ Generated: servings/ivy/Steeper.tsx
+Schema valid: Envelope
+✓ Generated: servings/ivy/Envelope.tsx
+
+done. 3 generated, 0 failed
+[1m[7m%[27m[1m[0m                                                                                                                                                          [0m[27m[24m[Jivan@Mac scripts % [K[?2004hccd ../../ap     apps[1m/[0m[0m/v1[1m/[0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                          [0m[27m[24m[Jivan@Mac v1 % [K[?2004hppnpm dev[?2004l
+
+> v1@0.0.0 dev /Users/ivan/projects/frontend_app/maid_melisa/apps/v1
+> vite
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J
+  [32m[1mVITE[22m v8.3.0[39m  [2mready in [0m[1m206[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m

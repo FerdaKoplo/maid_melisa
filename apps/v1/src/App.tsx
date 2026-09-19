@@ -3,6 +3,7 @@ import { setTheme } from "@maid_melisa/shared";
 import { SugarCube } from "../../../servings/ivy/SugarCube";
 
 import { Steeper } from "../../../servings/ivy/Steeper";
+import { Envelope } from "../../../servings/ivy/Envelope";
 
 setTheme("british");
 function App() {
@@ -31,6 +32,15 @@ function App() {
       />
       <Steeper label="Search" type="search" placeholder="Search..." />
       <Steeper label="Notes" type="textarea" placeholder="Write here..." />
+
+      <Envelope
+        label="Attachments"
+        variant="glazed"
+        multiple
+        accept="image/*,application/pdf"
+        maxSize={5}
+        placeholder="Drop images or PDFs here"
+      />
     </div>
   );
 }

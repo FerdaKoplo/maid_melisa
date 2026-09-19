@@ -3,8 +3,13 @@ import { validateSchema } from "@maid_melisa/templates/validators";
 import { generateIvyComponent } from "@maid_melisa/templates/generators";
 import { SugarCubeSchema } from "@maid_melisa/templates/schemas/sugar-cube.schema";
 import { SteeperSchema } from "@maid_melisa/templates/schemas/steeper.schema";
+import { EnvelopeSchema } from "@maid_melisa/templates/schemas/envelope.schema";
 
-const registry: ComponentSchema[] = [SugarCubeSchema, SteeperSchema];
+const registry: ComponentSchema[] = [
+  SugarCubeSchema,
+  SteeperSchema,
+  EnvelopeSchema,
+];
 
 const sync = (): void => {
   console.log("syncing maid melisa components...\n");
