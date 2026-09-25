@@ -76,3 +76,27 @@ done. 3 generated, 0 failed
   [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
 [2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
 [2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+^C[41m[30m ELIFECYCLE [39m[49m [31mCommand failed.[39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                          [0m[27m[24m[Jivan@Mac v1 % [K[?2004hccd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                          [0m[27m[24m[Jivan@Mac apps % [K[?2004hccd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                          [0m[27m[24m[Jivan@Mac maid_melisa % [K[?2004hggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                          [0m[27m[24m[Jivan@Mac maid_melisa % [K[?2004hggit o commit m -m ""f"e"a"t"(")"a)"t)"t)"a)"c)"h)"e)"m)")" )" m)"e)"n)"t)"s)"[1C "a"d"d" "t"e"m"p"l"a"t"e" "c"o"m"p"o"n"" n"e"n"t" "a"n"d" "" " " " a"n"d" "g"e"n"" " " " " " " f"o"r" "a"t"t"" " " i"m"a"g"e" "a"t"t"a"c"h"m"e"n"t"[?2004l
+[main f5f075d] feat(attachments) add template component for image attachment
+ 7 files changed, 608 insertions(+), 1 deletion(-)
+ create mode 100644 scripts/typescript
+ create mode 100644 servings/ivy/Envelope.tsx
+ create mode 100644 templates/components/envelope.template.tsx
+ create mode 100644 templates/schemas/envelope.schema.ts
+ create mode 100644 templates/types/envelope.type.ts
+[1m[7m%[27m[1m[0m                                                                                                                                                          [0m[27m[24m[Jivan@Mac maid_melisa % [K[?2004hggit push origin main[?2004l
+Enumerating objects: 32, done.
+Counting objects:   3% (1/32)Counting objects:   6% (2/32)Counting objects:   9% (3/32)Counting objects:  12% (4/32)Counting objects:  15% (5/32)Counting objects:  18% (6/32)Counting objects:  21% (7/32)Counting objects:  25% (8/32)Counting objects:  28% (9/32)Counting objects:  31% (10/32)Counting objects:  34% (11/32)Counting objects:  37% (12/32)Counting objects:  40% (13/32)Counting objects:  43% (14/32)Counting objects:  46% (15/32)Counting objects:  50% (16/32)Counting objects:  53% (17/32)Counting objects:  56% (18/32)Counting objects:  59% (19/32)Counting objects:  62% (20/32)Counting objects:  65% (21/32)Counting objects:  68% (22/32)Counting objects:  71% (23/32)Counting objects:  75% (24/32)Counting objects:  78% (25/32)Counting objects:  81% (26/32)Counting objects:  84% (27/32)Counting objects:  87% (28/32)Counting objects:  90% (29/32)Counting objects:  93% (30/32)Counting objects:  96% (31/32)Counting objects: 100% (32/32)Counting objects: 100% (32/32), done.
+Delta compression using up to 10 threads
+Compressing objects:   5% (1/17)Compressing objects:  11% (2/17)Compressing objects:  17% (3/17)Compressing objects:  23% (4/17)Compressing objects:  29% (5/17)Compressing objects:  35% (6/17)Compressing objects:  41% (7/17)Compressing objects:  47% (8/17)Compressing objects:  52% (9/17)Compressing objects:  58% (10/17)Compressing objects:  64% (11/17)Compressing objects:  70% (12/17)Compressing objects:  76% (13/17)Compressing objects:  82% (14/17)Compressing objects:  88% (15/17)Compressing objects:  94% (16/17)Compressing objects: 100% (17/17)Compressing objects: 100% (17/17), done.
+Writing objects:   5% (1/19)Writing objects:  10% (2/19)Writing objects:  15% (3/19)Writing objects:  21% (4/19)Writing objects:  26% (5/19)Writing objects:  31% (6/19)Writing objects:  36% (7/19)Writing objects:  42% (8/19)Writing objects:  47% (9/19)Writing objects:  52% (10/19)Writing objects:  57% (11/19)Writing objects:  63% (12/19)Writing objects:  68% (13/19)Writing objects:  73% (14/19)Writing objects:  78% (15/19)Writing objects:  84% (16/19)Writing objects:  89% (17/19)Writing objects:  94% (18/19)Writing objects: 100% (19/19)Writing objects: 100% (19/19), 6.46 KiB | 6.46 MiB/s, done.
+Total 19 (delta 8), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas:   0% (0/8)[Kremote: Resolving deltas:  12% (1/8)[Kremote: Resolving deltas:  25% (2/8)[Kremote: Resolving deltas:  37% (3/8)[Kremote: Resolving deltas:  50% (4/8)[Kremote: Resolving deltas:  62% (5/8)[Kremote: Resolving deltas:  75% (6/8)[Kremote: Resolving deltas:  87% (7/8)[Kremote: Resolving deltas: 100% (8/8)[Kremote: Resolving deltas: 100% (8/8), completed with 8 local objects.[K
+To https://github.com/FerdaKoplo/maid_melisa.git
+   dd05eff..f5f075d  main -> main
+[1m[7m%[27m[1m[0m                                                                                                                                                          [0m[27m[24m[Jivan@Mac maid_melisa % [K[?2004h

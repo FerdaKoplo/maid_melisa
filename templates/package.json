@@ -17,7 +17,8 @@
     "lucide-react": ">=0.300.0"
   },
   "dependencies": {
-    "@maid_melisa/shared": "workspace:*"
+    "@maid_melisa/shared": "workspace:*",
+    "framer-motion": "^13.4.4"
   },
   "keywords": [],
   "author": "",
