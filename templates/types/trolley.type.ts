@@ -9,19 +9,31 @@ export interface TrolleyItem {
 
 export interface TrolleyTypeProps {
   infinite?: boolean;
-  // items: TrolleyItem[];
   variant?: VariantTrolley;
   size?: SizeTrolley;
-  swipeThreshold?: number;
-  children: React.ReactNode;
   navigationMode?: NavigationMode;
+  autoPlay?: boolean;
+  autoPlayInterval?: number;
+  dragThreshold?: number;
+  children: React.ReactNode;
   onSwipeLeft?: (index: number) => void;
   onSwipeRight?: (index: number) => void;
-  dragThreshold?: string | number;
-  disabled?: boolean;
-  className?: string;
   onNext?: (index: number) => void;
   onPrev?: (index: number) => void;
   onEmpty?: () => void;
+  disabled?: boolean;
+  className?: string;
   "aria-label"?: string;
+}
+
+export interface TrolleyCardProps extends Pick<
+  TrolleyTypeProps,
+  "variant" | "size" | "disabled"
+> {
+  child: React.ReactNode;
+  isFront: boolean;
+  allowSwipe: boolean;
+  threshold: number;
+  onAction: (direction: "left" | "right") => void;
+  stackOffset: number;
 }

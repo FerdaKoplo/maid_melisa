@@ -75,8 +75,8 @@ function App() {
         <Trolley
           infinite
           variant="stacked"
-          size="standard"
-          navigationMode="both"
+          size="demi"
+          navigationMode="swipe"
           dragThreshold={100}
           onSwipeLeft={(index) =>
             setLastAction(`Discarded: ${teaBlends[index]?.name}`)

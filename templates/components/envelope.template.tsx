@@ -4,12 +4,14 @@ import { cn } from "@maid_melisa/shared/cn";
 import type { EnvelopeProps, EnvelopeFile } from "../types/envelope.type";
 
 const generateId = () => Math.random().toString(36).slice(2, 9);
+
 const formatSize = (bytes: number): string => {
   if (bytes < 1024) return `${bytes} B`;
   if (bytes < 1024 * 1024) return `${(bytes / 1024).toFixed(1)} KB`;
   return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
 };
 const isImage = (file: File) => file.type.startsWith("image/");
+
 const toEnvelopeFile = (file: File): EnvelopeFile => ({
   id: generateId(),
   file,
