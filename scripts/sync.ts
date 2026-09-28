@@ -5,12 +5,14 @@ import { SugarCubeSchema } from "@maid_melisa/templates/schemas/sugar-cube.schem
 import { SteeperSchema } from "@maid_melisa/templates/schemas/steeper.schema";
 import { EnvelopeSchema } from "@maid_melisa/templates/schemas/envelope.schema";
 import { TrolleySchema } from "@maid_melisa/templates/schemas/trolley.schema";
+import { TeaTierSchema } from "@maid_melisa/templates/schemas/tea-tier.type";
 
 const registry: ComponentSchema[] = [
   SugarCubeSchema,
   SteeperSchema,
   EnvelopeSchema,
   TrolleySchema,
+  TeaTierSchema,
 ];
 
 const sync = (): void => {

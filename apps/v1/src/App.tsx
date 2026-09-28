@@ -5,6 +5,8 @@ import { SugarCube } from "../../../servings/ivy/SugarCube";
 import { Steeper } from "../../../servings/ivy/Steeper";
 import { Envelope } from "../../../servings/ivy/Envelope";
 import { Trolley } from "../../../servings/ivy/Trolley";
+import { TeaTier } from "../../../servings/ivy/TeaTier";
+import { TierItem } from "../../../templates/components/tea-tier.template";
 
 setTheme("british");
 
@@ -43,6 +45,13 @@ function App() {
       {/* <div className="bg-primary text-surface p-4 mb-4 border border-border"> */}
       {/*   Tailwind Theme Test */}
       {/* </div> */}
+
+      <TeaTier variant="gold" size="standard">
+        <TierItem href="/">Lobby</TierItem>
+        <TierItem href="/services">Services</TierItem>
+        <TierItem>Silver Polish</TierItem>
+      </TeaTier>
+
       <SugarCube variant="steeped">Steeped</SugarCube>
       <SugarCube variant="plain">Plain</SugarCube>
       <SugarCube variant="glazed">Glazed</SugarCube>

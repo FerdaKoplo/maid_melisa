@@ -19,7 +19,7 @@ const diff = (): void => {
 
     if (!existsSync(servingPath)) {
       console.warn(
-        `⚠ Missing:    servings/ivy/${schema.name}.tsx — run pnpm generate`,
+        `Missing:    servings/ivy/${schema.name}.tsx — run pnpm generate`,
       );
       continue;
     }
@@ -32,12 +32,12 @@ const diff = (): void => {
 
     if (!hasCorrectExport || !hasCorrectTypes) {
       console.warn(
-        `⚠ Drifted:    servings/ivy/${schema.name}.tsx — run pnpm sync`,
+        `Drifted:    servings/ivy/${schema.name}.tsx — run pnpm sync`,
       );
       continue;
     }
 
-    console.log(`✓ In sync:    servings/ivy/${schema.name}.tsx`);
+    console.log(`In sync:    servings/ivy/${schema.name}.tsx`);
   }
 };
 
